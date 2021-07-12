@@ -65,7 +65,7 @@ export default {};
   width: 21.5rem;
 }
 @media (max-width: 500px) {
-  .Hero {
+  .hero {
     height: 40vh;
   }
 }
