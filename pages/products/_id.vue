@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav />
     <div v-if="product" class="container py-5">
       <div class="hero-container">
         <img
@@ -50,7 +49,7 @@
       </div>
     </div>
     <div v-else class="container padding">
-      Page Not Found
+      <PageNotFound />
     </div>
   </div>
 </template>
