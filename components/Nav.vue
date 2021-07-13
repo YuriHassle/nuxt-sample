@@ -13,7 +13,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+    <div id="navbarSupportedContent" class="collapse navbar-collapse ml-auto">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <NuxtLink to="/products" class="nav-link">
