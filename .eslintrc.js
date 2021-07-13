@@ -20,6 +20,13 @@ module.exports = {
       {
         endOfLine: "auto"
       }
+    ],
+    "vue/attribute-hyphenation": [
+      "error",
+      "never",
+      {
+        ignore: ["custom-prop"]
+      }
     ]
   }
 };
